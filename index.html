@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Médico Ñuñoa</title>
+
+    <style>
+        header {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: 250px 250px 250px;
+            grid-template-columns: 400px 400px;
+            background-color: #2196F3;
+            padding: 10px;
+            border-radius: 10px;
+            width: 800px;
+            height: 750px;
+            margin: auto;
+
+        }
+
+        .wrapper {
+            display: grid;
+            background-color: #2196F3;
+            padding: 10px;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding-top: 20px;
+            padding-left: 20px;
+            font-size: 20px;
+            text-align: start;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="estadisticas"></h1>
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-item" id="r1"></div>
+        <div class="grid-item" id="r2"></div>
+        <div class="grid-item" id="t1"></div>
+        <div class="grid-item" id="t2"></div>
+        <div class="grid-item" id="d1"></div>
+        <div class="grid-item" id="d2"></div>
+    </div>
+    
+    <br>
+    <h2>Horas dentales</h2>
+
+    <div class="wrapper">
+        <div class="grid-item" id="dent1"></div>
+        <div class="grid-item" id="dent2"></div>
+        <div class="grid-item" id="dent3"></div>
+        <div class="grid-item" id="dent4"></div>
+        <div class="grid-item" id="dent5"></div>
+        <div class="grid-item" id="dent6"></div>
+    </div>
+
+    <br>
+    
+    <h2>Pacientes atendidos</h2>
+    
+    <div class="wrapper">
+        <div class="grid-item" id="pacientess"></div>
+    </div>
+
+    <br>
+
+    <h2>Pacientes Isapre dentales</h2>
+
+    <div class="wrapper">
+        <div class="grid-item" id="isa1"></div>
+        <div class="grid-item" id="isa2"></div>
+        <div class="grid-item" id="isa3"></div>
+    </div>
+
+    <br>
+
+    <h2>Pacientes Fonasa traumatología</h2>
+
+    <div class="wrapper">
+        <div class="grid-item" id="fona1"></div>
+        <div class="grid-item" id="fona2"></div>
+        <div class="grid-item" id="fona3"></div>
+        <div class="grid-item" id="fona4"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
